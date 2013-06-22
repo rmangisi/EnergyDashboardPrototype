@@ -1,4 +1,21 @@
 EnergyDashboardPrototype::Application.routes.draw do
+  root to: 'static_pages#home' # get "static_pages/home"
+=begin
+  get "static_pages/help"
+  get "static_pages/astatic_pagesbout"
+  get "static_pages/contact"
+=end
+  get '/about',   to: 'static_pages#about'
+  get '/help',    to: 'static_pages#help'
+  get '/contact', to: 'static_pages#contact'
+  get'/meters',to:'meters#index'
+=begin
+  match "help" => 'static_pages#help'
+  match "about" => 'static_pages#about'
+  match "contact" =>'static_pages#contact'
+=end
+  resources :meters
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

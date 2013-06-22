@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  powerphase1: 1.5
+  powerphase2: 1.5
+  powerphase3: 1.5
+  powertotal: 1.5
+  metertimestamp: 2013-06-07 23:54:06
+
+two:
+  powerphase1: 1.5
+  powerphase2: 1.5
+  powerphase3: 1.5
+  powertotal: 1.5
+  metertimestamp: 2013-06-07 23:54:06

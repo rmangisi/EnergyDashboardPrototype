@@ -1,0 +1,40 @@
+
+<div id="orders_chart" style="width:560px; height:300px;"></div>
+<script type="text/javascript" charset="utf-8">
+    $(function() {
+        new Highcharts.Chart({
+            chart: {
+                renderTo: "orders_chart"
+            }});
+    });
+</script>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @meter.meter_status.name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @meter.location_id %>
+</p>
+
+<p>
+  <strong>Serialno:</strong>
+  <%= @meter.serialno %>
+</p>
+
+<p>
+  <strong>Vtfactor:</strong>
+  <%= @meter.vtfactor %>
+</p>
+
+<p>
+  <strong>Ctfactor:</strong>
+  <%= @meter.ctfactor %>
+</p>
+
+<%= link_to 'Edit', edit_meter_path(@meter) %> |
+<%= link_to 'Back', meters_path %>

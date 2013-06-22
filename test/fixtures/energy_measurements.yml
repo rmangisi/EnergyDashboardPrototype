@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  [: MyString
+  is_estimate: false
+  value: 1.5
+  measurement_unit: MyString
+  measurement_timestamp: 
+
+two:
+  [: MyString
+  is_estimate: false
+  value: 1.5
+  measurement_unit: MyString
+  measurement_timestamp: 

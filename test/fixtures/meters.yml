@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  status_id: 1
+  location_id: 1
+  serialno: MyString
+  vtfactor: 1.5
+  ctfactor: 1.5
+
+two:
+  status_id: 1
+  location_id: 1
+  serialno: MyString
+  vtfactor: 1.5
+  ctfactor: 1.5
